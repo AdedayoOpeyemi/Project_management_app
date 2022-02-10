@@ -6,7 +6,12 @@
   <% @projects.each do |project| %>
     <%= render project %>
     <p>
-      <%= link_to "Show this project", project %>
+      <%= link_to "Show", project %>
+      <%= link_to "Edit", project %>
+      <%= link_to "Delete", project_path(project), data: {
+                    turbo_method: :delete,
+                    turbo_confirm: "Are you sure?"
+                  } %>
     </p>
   <% end %>
 </div>
