@@ -28,7 +28,9 @@ class TasksController < ApplicationController
     if @task.save
       redirect_to([@task.project], notice: 'Task was successfully created.')
     else
-      render action: 'new'
+      render :new, status: :unprocessable_entity
+      # format.html { render :new, status: :unprocessable_entity}
+      # render action: 'new'
     end
   end
 
