@@ -1,0 +1,12 @@
+
+<%= link_to "Back", project_path, class: 'btn btn-secondary mb-4' %>
+
+<div class="card">
+
+  <div class="card-body">
+    <h2 class='card-title mb-4'>
+      <span>Edit Project</span>
+    </h2>
+    <%= render "form", project: @project %>
+  </div>
+</div>
