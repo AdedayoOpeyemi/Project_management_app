@@ -18,6 +18,7 @@
             <span class="badge badge-<%=project.badge_color%> mb-3"><%= project.status %></span>
             <span class="text-secondary">
               <small><%= project.percent_complete%>% complete</small>
+              (<%= project.total_complete %>/<%= project.total_tasks %> tasks)
           </div>
           
           <h5 class="card-title text-dark"><b><%= project.name %></b></h5>
