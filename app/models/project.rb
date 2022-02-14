@@ -1,6 +1,11 @@
 class Project < ApplicationRecord
   has_many :tasks
   belongs_to :user
+  before_create :capitalize_name
+
+  def capitalize_name
+    self.name.capitalize!
+  end
 
   def badge_color
     case status
