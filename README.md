@@ -1,24 +1,51 @@
-# README
+# Project Management App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> Project Management App with task listing
 
-Things you may want to cover:
+![screenshot](screenshot.PNG)
 
-* Ruby version
+- This project is to demonstrate the use of ES6 and Webpack.
 
-* System dependencies
+- The project is a sample homepage for a restaurant with the content of the page generated using Javascript modules being bundled with the use of Webpack
 
-* Configuration
+- A major feature of the page is the Tabbed navigation implemented with the use of Javascript.
 
-* Database creation
+## Built With
 
-* Database initialization
+- HTML
+- CSS
+- Javascript
+- Webpack
 
-* How to run the test suite
+## Getting Started
 
-* Services (job queues, cache servers, search engines, etc.)
+To get a local copy up and running follow these simple example steps.
 
-* Deployment instructions
+- Create a local clone of the repo by running 
+`git clone git@github.com:AdedayoOpeyemi/Portfolio-Opeyemi.git`
+- run `npm install` to get all dependencies
 
-* ...
+## Authors
+
+👤 **Opeyemi Oyelesi**
+
+- Github: [Opeyemi Oyelesi](https://github.com/AdedayoOpeyemi)
+- Linkedin: [Opeyemi Oyelesi](https://www.linkedin.com/in/opeyemioyelesi/)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Thanks to Microverse and its awesome community
+
+## 📝 License
+
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
